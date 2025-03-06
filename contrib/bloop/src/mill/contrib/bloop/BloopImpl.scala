@@ -108,7 +108,7 @@ class BloopImpl(evs: () => Seq[Evaluator], wd: os.Path) extends ExternalModule {
   }
 
   // Compute all transitive modules from build children and via moduleDeps
-  @deprecated("Use mill.internal.JavaModuleUtils.transitiveModules instead", since = "mill 0.10.3")
+  @deprecated("Use mill.internal.JavaModuleUtils.transitiveModules instead", since = "mill 0.10.4")
   def transitiveModules(
       mod: define.Module,
       found: Seq[define.Module] = Seq.empty
