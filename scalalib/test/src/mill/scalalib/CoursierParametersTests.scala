@@ -15,7 +15,7 @@ object CoursierParametersTests extends TestSuite {
     object core extends ScalaModule {
       def scalaVersion = "2.13.12"
       def ivyDeps = Task {
-        Agg(ivy"com.lihaoyi::pprint:0.9.0")
+        Agg(ivy"com.lihaoyi::pprint:0.9.6")
       }
       def resolutionParams = Task.Anon {
         super.resolutionParams()
