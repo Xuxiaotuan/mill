@@ -176,7 +176,7 @@ object `package` extends RootModule with MockitoModule {
       def testIvyDeps = Agg(
         libraries.assertj,
         libraries.junitPlatformLauncher,
-        ivy"com.github.sbt.junit:jupiter-interface:0.11.4"
+        ivy"com.github.sbt.junit:jupiter-interface:0.17.1"
       )
 
       def testRuntimeIvyDeps = Agg(
@@ -191,7 +191,7 @@ object `package` extends RootModule with MockitoModule {
       def testRuntimeIvyDeps = Agg(
         libraries.junitJupiterEngine,
         libraries.junitPlatformLauncher,
-        ivy"com.github.sbt.junit:jupiter-interface:0.11.4"
+        ivy"com.github.sbt.junit:jupiter-interface:0.17.1"
       )
     }
     object junitJupiterInlineMockMakerExtensionTest extends MockitoModule {
@@ -201,7 +201,7 @@ object `package` extends RootModule with MockitoModule {
       def testRuntimeIvyDeps = Agg(
         libraries.junitJupiterEngine,
         libraries.junitPlatformLauncher,
-        ivy"com.github.sbt.junit:jupiter-interface:0.11.4"
+        ivy"com.github.sbt.junit:jupiter-interface:0.17.1"
       )
     }
     object junitJupiterParallelTest extends MockitoModule {
@@ -211,7 +211,7 @@ object `package` extends RootModule with MockitoModule {
       def testRuntimeIvyDeps = Agg(
         libraries.junitJupiterEngine,
         libraries.junitPlatformLauncher,
-        ivy"com.github.sbt.junit:jupiter-interface:0.11.4",
+        ivy"com.github.sbt.junit:jupiter-interface:0.17.1",
         libraries.bytebuddy
       )
     }
