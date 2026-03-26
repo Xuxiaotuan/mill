@@ -31,7 +31,7 @@ import mill.util.Util.millProjectModule
  *   def scoverageVersion = "2.1.1"
  *
  *   object test extends ScoverageTests {
- *     def ivyDeps = Agg(ivy"org.scalatest::scalatest:3.2.19")
+ *     def ivyDeps = Agg(ivy"org.scalatest::scalatest:3.2.20")
  *     def testFrameworks = Seq("org.scalatest.tools.Framework")
  *   }
  * }
